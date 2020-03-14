@@ -1,0 +1,14 @@
+.Application {
+    font-family: Montserrat, serif !important;
+    font-style: normal;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+.pagination {
+    height: 150px;
+    width: 100vw;
+}

@@ -1,0 +1,254 @@
+.contentWrapper {
+  text-align: center;
+  display: inline-block;
+  background: #e9e9e9;
+  width: 100vw;
+}
+
+.content {
+  display: inline-block;
+  max-width: 1440px;
+  background: #FFFFFF;
+}
+
+.headerWrapper {
+  height: 655px;
+  display: block;
+}
+
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "discp phone";
+}
+
+.descriptionWrapper {
+  margin-left: 120px;
+  width: calc(100% - 120px);
+  font-style: normal;
+  color: white;
+  text-align: left;
+  grid-area: discp;
+}
+.descriptionWrapper a {
+  color: #3A80BA;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  border-radius: 8px;
+  text-decoration: none;
+  background: white;
+  padding: 12px 16px;
+}
+
+.phoneWrapper {
+  text-align: right;
+  grid-area: phone;
+  padding-top: 60px;
+  margin-right: 300px;
+  display: inline-block;
+}
+
+.contentHeaderWrapper {
+  display: inline-block;
+  width: 580px;
+  height: 78px;
+}
+
+.aboutIcons {
+  padding-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 130px 380px auto 380px auto 380px 130px;
+  grid-template-areas: ". cd . sd . rr .";
+}
+
+.box {
+  background: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 32px;
+  padding-bottom: 40px;
+}
+
+.previewBox {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: "prevDescrip notebook";
+  margin-top: 110px;
+  width: 1440px;
+  height: 429px;
+  background: linear-gradient(93.19deg, #255D8B 2.29%, #3A80BA 96.79%);
+}
+
+.viewDescpripWrapper {
+  text-align: left;
+  width: 100%;
+  grid-area: prevDescrip;
+}
+.viewDescpripWrapper a {
+  margin-top: 50px;
+  margin-left: 130px;
+  color: #3A80BA;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  border-radius: 8px;
+  text-decoration: none;
+  background: white;
+  padding: 18px 75px;
+}
+.viewDescpripWrapper p {
+  margin-top: 30px;
+  width: 580px;
+  color: white;
+  font-size: 16px;
+  line-height: 142%;
+}
+.viewDescpripWrapper b {
+  margin-top: 80px;
+  display: inline-block;
+  color: white;
+  font-size: 32px;
+  line-height: 39px;
+}
+.viewDescpripWrapper p, .viewDescpripWrapper b {
+  padding-left: 130px;
+}
+
+.notebookWrapper {
+  grid-area: notebook;
+}
+
+.plansListWrapper {
+  display: grid;
+  grid-template-areas: ". B . S . U ." "dp dp dp dp dp dp dp";
+  grid-template-columns: 130px 380px auto 380px auto 380px 130px;
+  width: 1440px;
+  height: 900px;
+  background-position: 101% top !important;
+  background-repeat: no-repeat !important;
+}
+
+.plansBox {
+  padding-top: 50px;
+  background: white;
+  max-height: 670px;
+}
+.plansBox button {
+  width: 220px;
+  height: 56px;
+  background: #3A80BA;
+  border-radius: 8px;
+}
+.plansBox h1 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  text-align: center;
+  color: #3A80BA;
+}
+.plansBox h2 {
+  font-size: 48px;
+  line-height: 59px;
+}
+.plansBox h1, .plansBox h2 {
+  padding: 0;
+  margin-top: 20px;
+}
+.plansBox img {
+  margin-top: 20px;
+}
+.plansBox b {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+.plansBox p {
+  font-size: 16px;
+  line-height: 162%;
+  padding-left: 115px;
+  padding-right: 115px;
+  margin-bottom: 50px;
+}
+.plansBox a {
+  text-decoration: none;
+  padding: 20px 80px;
+  color: white;
+  background: #3A80BA;
+  border-radius: 8px;
+}
+
+.footerWrapper {
+  background-position: left bottom !important;
+  background-repeat: no-repeat !important;
+  height: 200px;
+}
+.footerWrapper a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 142%;
+  text-align: center;
+  color: #3A80BA;
+}
+
+.feedbackWrapper {
+  margin-top: 35px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.feedBack {
+  width: 579px;
+  height: 64px;
+  grid-template-columns: auto 192px;
+  grid-template-areas: "field button";
+  display: grid;
+}
+.feedBack input {
+  outline: none !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+}
+
+.emailField {
+  background: #FFFFFF;
+  border: 3px solid #F1F1F1;
+  box-sizing: border-box;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  grid-area: field;
+}
+
+.submitButton {
+  margin-left: -10px;
+  box-sizing: border-box;
+  border: 3px solid #F1F1F1;
+  border-radius: 10px;
+  background: #3A80BA;
+  color: white;
+  grid-area: button;
+}
+
+.footer {
+  width: 100%;
+  height: 28px;
+}
+
+.footerText {
+  padding-top: 20px;
+  margin: 0;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=main.module.css.map */
